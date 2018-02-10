@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:background="@android:color/holo_blue_light"
+    android:weightSum="2"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/lbl_namapeserta"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:text="Peserta: "
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/lbl_nilai"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Nilai: 10"
+            android:textSize="50sp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_kuncijawaban"
+        android:onClick="KunciJawaban"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_gravity="start"
+        android:text="Kunci Jawaban" />
+    <Button
+        android:id="@+id/btn_cobalagi"
+        android:onClick="CobaLagi"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_gravity="start"
+        android:text="Coba Lagi" />
+</LinearLayout>

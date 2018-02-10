@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:text="Kuis Pahlawan Kemerdekaan"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:src="@drawable/garudapancasila" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:text="Google Developers"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:text="Develop By: Budiono, IAK3-2, 2017"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:text="Fasilitator: Pramasta Ramadha Rahardjo dan Fajar Dirga"
+        android:textAlignment="center"
+        />
+</LinearLayout>
